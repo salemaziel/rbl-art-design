@@ -10,9 +10,9 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1 style={{textShadow: '2px 2px 4px gray'}}>RBL Art Designs</h1>
+        <h1 style={{textShadow: '2px 2px 4px gray'}}>RBL Art Design</h1>
         <p>
-          Web Design For Today's World {' '}
+          Web Design For The Modern World {' '}
           
           
         </p>
@@ -26,7 +26,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Artist Pages
+           Artist Pages
           </button>
         </li>
         <li>
