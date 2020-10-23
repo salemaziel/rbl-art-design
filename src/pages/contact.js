@@ -98,9 +98,7 @@ class IndexPage extends React.Component {
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
             {/*<Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />*/}
-            <div style={{marginL}}>
-              <button as={Link} to="/">Back to Home</button>
-            </div>
+
             <TabContact
              onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} 
             title="Contact"
