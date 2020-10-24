@@ -1,21 +1,24 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import Logo150 from '../images/logo-idea1-150px-whiteshadow.png'
+import  { Logo250WShadow } from '../images/index'
+
+import CalendlyButton from './CalendlyButton'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <img src={Logo150} alt="RBL Art Logo" />
+      <img src={Logo250WShadow} alt="RBL Art Logo" />
     </div>
     <div className="content">
       <div className="inner">
-        <h1 style={{textShadow: '2px 2px 4px gray'}}>RBL Art Design</h1>
-        <p>
+        <h1 style={{textShadow: '2px 2px 4px gray', display: 'none'}}>RBL Art Design</h1>
+        <h2 style={{textShadow: '2px 2px 4px gray'}}>
           Web Design For The Modern World {' '}
           
           
-        </p>
+        </h2>
+        <CalendlyButton />
       </div>
     </div>
     <nav>
@@ -26,7 +29,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-           Artist Pages
+           Artist BioLink Pages
           </button>
         </li>
         <li>
@@ -35,7 +38,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Portfolio
+            Custom WebDesign Portfolio
           </button>
         </li>
         <li>
@@ -44,7 +47,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            About RBL Art
           </button>
         </li>
         <li>
@@ -53,7 +56,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Contact Us
           </button>
         </li>
       </ul>

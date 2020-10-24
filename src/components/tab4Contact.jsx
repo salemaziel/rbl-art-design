@@ -1,6 +1,6 @@
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import PropTypes from 'prop-types'
+//import pic01 from '../images/pic01.jpg'
+//import PropTypes from 'prop-types'
 
 import ContactForm from './contactForm'
 

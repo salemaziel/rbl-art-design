@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+//import pic01 from '../images/pic01.jpg'
+//import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 import {
-  BioLinkDesign, Mockup1
+  BioLinkDesign, Mockup1, Spartan
 } from '../images/index'
 
-import TabIntro from './tab1Intro'
+//import TabIntro from './tab1Intro'
 import TabCustomWork from './tab2CustomWork'
 
 import Tab from './tab'
@@ -42,10 +42,12 @@ class Main extends React.Component {
         >
           <Tab
           image={BioLinkDesign}
-          title="Contact Link Webpages"
+          title="Personal 1-Pagers"
           text1="Beautiful promotional landing page, customized to fit you."
           text2="With just one url, offer your followers multiple links to stream your music, view your galleries, shop your merch, and connect with you on social media. "
           image2={Mockup1}
+          text3="Perfect for Artists, Influencers, Journalists, Agencies and Businesses"
+          image3={Spartan}
           />
 
 

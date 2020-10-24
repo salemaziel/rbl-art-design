@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-import Header from '../components/Header'
-import Main from '../components/Main'
+//import Header from '../components/Header'
+//import Main from '../components/Main'
 import Footer from '../components/Footer'
 
 import TabContact from '../components/tab4Contact'
-import {Link} from 'gatsby'
+//import {Link} from 'gatsby'
 
 class IndexPage extends React.Component {
   constructor(props) {

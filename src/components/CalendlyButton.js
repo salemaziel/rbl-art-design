@@ -7,7 +7,7 @@ import { openPopupWidget } from 'react-calendly';
 //  const onClick = () => openPopupWidget({ url, prefill, pageSettings, utm });
 const CalendlyButton = ({ url }) => {
     const onClick = () => openPopupWidget({ url:"https://calendly.com/salemaziel/30-min" });
-  return <button onClick={onClick} /*className={calendlystyle.NavBook}*/ className="button" url={url} >Book An Appointment</button>
+  return <button onClick={onClick} /*className={calendlystyle.NavBook}*/ className="button" url={url} >Book A Consultation</button>
 }
 
 export default CalendlyButton
