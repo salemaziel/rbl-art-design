@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     perspective: 3000px;
+    overflow: hidden;
 
     iframe {
       width: 25vw;
@@ -30,9 +31,16 @@ body {
       transition: 0.3s ease-in-out;
       z-index: 8000;
       transform: rotateY(20deg);
+      @media (max-width: 480px) {
+        width: 45vw;
+      }
       &:not(:first-child) {
         margin-left: -$distance;
+        @media (max-width: 480px) {
+          margin-left: -($distance/1.25);
+        }
       }
+
       &:hover {
         transform: translateY(-1rem);
         /*width: 60vw;*/
@@ -41,6 +49,41 @@ body {
         & ~ iframe {
           transform: translateX($distance/2.5);
         }
+        @media (max-width: 480px) {
+          transform: translateY(-1rem);
+          width: 100%;
+          z-index: 9000;
+        }
+      }
+      &:focus {
+        transform: translateY(-1rem);
+        /*width: 60vw;*/
+        width: 100%;
+        z-index: 9000;
+        & ~ iframe {
+          transform: translateX($distance/2.5);
+        }
+        @media (max-width: 480px) {
+          transform: translateY(-1rem);
+          width: 100%;
+          z-index: 9000;
+        }
+      }
+      &:active {
+        transform: translateY(-1rem);
+        /*width: 60vw;*/
+        width: 100%;
+        z-index: 9000;
+        & ~ iframe {
+          transform: translateX($distance/2.5);
+        }
+        @media (max-width: 480px) {
+          transform: translateY(-1rem);
+          width: 100%;
+          z-index: 9000;
+        }
       }
     }
   }
+
+
