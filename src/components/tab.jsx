@@ -4,7 +4,7 @@ import React from 'react'
 
 
 
-const Tab = (props) => {
+const Tab = ( props ) => {
     return(
         <>
         <h2 className="major">{props.title}</h2>

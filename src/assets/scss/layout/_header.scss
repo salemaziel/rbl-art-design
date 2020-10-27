@@ -248,8 +248,8 @@
   }
 
   @include breakpoint(xsmall) {
-    padding: 1.5rem 0;
-
+    padding: 0 0 1.5rem 0;
+    /*padding: 1.5rem 0;*/
     .content {
       .inner {
         padding: 2.5rem 0;

@@ -38,7 +38,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Custom WebDesign Portfolio
+            View Demos
           </button>
         </li>
         <li>
@@ -47,7 +47,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About RBL Art
+            Pricing
           </button>
         </li>
         <li>

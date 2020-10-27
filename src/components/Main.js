@@ -40,6 +40,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
+
           <Tab
           image={BioLinkDesign}
           title="Personal 1-Pagers"
@@ -49,9 +50,6 @@ class Main extends React.Component {
           text3="Perfect for Artists, Influencers, Journalists, Agencies and Businesses"
           image3={Spartan}
           />
-
-
-
           {close}
         </article>
 
